@@ -1,5 +1,5 @@
 #STEP-1: Installing Git and Maven
-apt install git maven -y
+sudo apt install git maven -y
 
 #STEP-2: Repo Information (jenkins.io --> download -- > ubuntu)
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
@@ -18,6 +18,3 @@ sudo apt install fontconfig openjdk-21-jre
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
 sudo systemctl status jenkins
-
-#STEP-5: Auto-Start Jenkins
-chkconfig jenkins on
