@@ -1,4 +1,5 @@
 #STEP-1: Installing Git and Maven
+sudo apt update
 sudo apt install git maven -y
 
 #STEP-2: Repo Information (jenkins.io --> download -- > ubuntu)
