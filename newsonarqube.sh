@@ -1,0 +1,6 @@
+f# Installation of sonar-qube in docker -> Ubuntu linux
+sudo apt update -y 
+sudo apt install docker -y
+sudo service docker start
+sudo usermod -aG docker ec2-user
+exit
